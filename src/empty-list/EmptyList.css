@@ -1,0 +1,58 @@
+.empty-list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -400px;
+}
+
+
+.task-logo{
+    width: 159.269px;
+    height: 142.299px;
+    flex-shrink: 0;
+    margin-top: 100px;
+}
+
+.title{
+    color: #000000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.56px;
+    margin-left: 5px;
+}
+
+.sub-title{
+    color: #6D6C6C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.32px;
+}
+
+.button-prymary{
+    display: flex;
+    width: 220px;
+    height: 57px;
+    padding: 19px 74px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--Primary-STM-Blue, #3754DB);
+    color: #fff;
+    border: none;
+    margin-bottom: 124px;
+}
+
+.empty-list-mesage{
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    margin-left: 400px;
+    align-items: center;
+}

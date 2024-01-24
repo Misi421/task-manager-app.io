@@ -1,0 +1,15 @@
+.date {
+    margin: 0px;
+    color: var(--accent-stm-dark-mode-bg, #16171D);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.42px;
+}
+
+@media only screen and (max-width: 600px){
+    .date{
+        margin-top: -10px;
+    }
+}

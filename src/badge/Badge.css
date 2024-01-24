@@ -1,0 +1,36 @@
+.task-badge {
+    height: 24px;
+    padding: 0px 16px 8px 15px;
+    align-items: center;
+    border-radius: 100px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.24px;
+    font-weight: bold;
+}
+
+.badge-todo{
+    background-color: #f2f2f2;
+    color: #808080;
+    border-radius: 20px;
+}
+
+.badge-in-progress{
+    background-color: #f2f4fd;
+    color: #3754db;
+    border-radius: 20px;
+}
+
+.badge-pending{
+    background-color: #fffdf5;
+    color: #df9a00;
+    border-radius: 20px;
+}
+
+.badge-completed{
+    background-color: #f0fff9;
+    color: #00c271;
+    border-radius: 20px;
+}
